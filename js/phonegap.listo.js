@@ -72,10 +72,10 @@ function checkConnection() {
 		//alert('Tipo de conexión: ' + networkState);
 	*/
 	if(networkState != 'none') {
-		$('#blanco').removeClass('quitar-blanco');
+		$('#blanco').addClass('quitar-blanco');
 	}
 	else {
-		$('#blanco').removeClass('quitar-blanco');
+		$('#blanco').addClass('quitar-blanco');
 	}
 }// CheckConnection
     
