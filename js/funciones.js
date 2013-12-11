@@ -11,7 +11,7 @@ function alertDismissed() {
         // sin nada que hacer
  }
 function sinconexion() {
-	$('#blanco').removeClass('quitar-blanco');
+	$('#blanco').addClass('quitar-blanco');
 }
 function conexion() {
 	$('#blanco').addClass('quitar-blanco');
